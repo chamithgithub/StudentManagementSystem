@@ -31,8 +31,8 @@ public class StudentMenuController {
       //  setUi("DeleteCustomerForm");
     }
 
-    public void updateStudentOnAction(ActionEvent actionEvent) {
-      //  setUi("DeleteCustomerForm");
+    public void updateStudentOnAction(ActionEvent actionEvent) throws IOException {
+        setUi("UpdateStudentForm");
     }
     private void setUi(String URI) throws IOException {
         Parent parent  = FXMLLoader.load(getClass().getResource("../views/"+URI+".fxml"));

@@ -19,7 +19,7 @@
       <TextField fx:id="txtId" layoutX="24.0" layoutY="68.0" onAction="#txtSearchOnAction" prefHeight="26.0" prefWidth="231.0" />
       <TextField fx:id="txtEmail" layoutX="24.0" layoutY="158.0" prefHeight="26.0" prefWidth="231.0" />
       <TextField fx:id="txtSalary" layoutX="24.0" layoutY="210.0" prefHeight="26.0" prefWidth="231.0" />
-      <Button layoutX="26.0" layoutY="342.0" mnemonicParsing="false" onAction="#btnSearchOnAction" prefHeight="26.0" prefWidth="231.0" text="Save" />
+      <Button layoutX="26.0" layoutY="342.0" mnemonicParsing="false" onAction="#btnSearchOnAction" prefHeight="26.0" prefWidth="231.0" text="Search" />
       <TextField fx:id="txtAddress" layoutX="26.0" layoutY="254.0" prefHeight="26.0" prefWidth="231.0" />
       <TextField fx:id="txtNic" layoutX="26.0" layoutY="300.0" prefHeight="26.0" prefWidth="231.0" />
    </children>
