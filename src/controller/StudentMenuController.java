@@ -27,8 +27,8 @@ public class StudentMenuController {
         setUi("SaveStudentForm");
     }
 
-    public void deleteStudentOnAction(ActionEvent actionEvent) {
-      //  setUi("DeleteCustomerForm");
+    public void deleteStudentOnAction(ActionEvent actionEvent) throws IOException {
+        setUi("DeleteStudentForm");
     }
 
     public void updateStudentOnAction(ActionEvent actionEvent) throws IOException {
