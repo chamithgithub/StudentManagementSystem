@@ -19,8 +19,8 @@ public class StudentMenuController {
     public TableColumn colAddress;
     public TableColumn colNic;
 
-    public void searchStudentOnAction(ActionEvent actionEvent) {
-       // setUi("DeleteCustomerForm");
+    public void searchStudentOnAction(ActionEvent actionEvent) throws IOException {
+        setUi("SearchStudentForm");
     }
 
     public void saveStudentOnAction(ActionEvent actionEvent) throws IOException {
